@@ -1,0 +1,22 @@
+{
+  "name": "react-video-manager",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "## Features - Play/Pause, Next, Back, Loop, Mute",
+  "peerDependencies": {
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
