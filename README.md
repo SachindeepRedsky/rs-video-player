@@ -25,7 +25,6 @@ npm install react-video-manager
 ```
 
 ---
-
 ## 🚀 Usage
 
 ```
@@ -46,9 +45,7 @@ const videos = [
 
 const App = () => {
   return (
-    <div style={{ padding: '20px' }}>
-      <h2 style={{ textAlign: 'center' }}>React Video Library Demo</h2>
-
+    <div >
       <VideoList
         // Required: Array of video objects (id, src, title, description, tags)
         videos={videos}
@@ -65,10 +62,10 @@ const App = () => {
           containerStyle: {},
 
           // Style for the video element itself
-          videoStyle: { },
+          videoStyle: {},
 
           // Style for playback control buttons (play, pause, etc.)
-          buttonStyle: { },
+          buttonStyle: {},
 
           // Style for the container holding video controls
           controlsContainerStyle: { },
@@ -108,7 +105,7 @@ const App = () => {
         playerContainerStyle={{}}
 
         // Optional: Style for the scrollable video list area (max height, scroll behavior)
-        videoListWrapperStyle={{ }}
+        videoListWrapperStyle={{}}
       />
     </div>
   );
